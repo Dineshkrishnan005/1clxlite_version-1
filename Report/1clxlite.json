@@ -1,1 +1,410 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-12T10:05:16.520Z",
+        "line": 4,
+        "name": "Google signin for Ecx",
+        "description": "",
+        "id": "1clx-site-sso-login-for-ecx;google-signin-for-ecx",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20141810900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the enters the Google signin page",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_ECX.the_enters_the_google_signin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//input[@class\u003d\u0027whsOnd zHQkBf\u0027])[1]\"}\n  (Session info: chrome\u003d111.0.5563.148)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6ac65b44b4824636f942d281b52e72e8, findElement {using\u003dxpath, value\u003d(//input[@class\u003d\u0027whsOnd zHQkBf\u0027])[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.148, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\SACHIT~1.S\\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:60424}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60424/devtoo..., se:cdpVersion: 111.0.5563.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 6ac65b44b4824636f942d281b52e72e8\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat StepDefinition_1clxlite.SSO_Login_ECX.user_enters_their_credentials(SSO_Login_ECX.java:54)\r\n\tat ✽.user enters their credentials(file:///C:/Users/Sachithanandhan.S/git/1clxlite_version-1/src/test/resources/FeatureFiles/ECX_SSO_Login.feature:6)\r\n",
+              "duration": 33375575500,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user enters their credentials",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_ECX.user_enters_their_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2994400,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User sees the results depends on their credentils",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_ECX.user_sees_the_results_depends_on_their_credentils()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Google"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-12T10:06:10.343Z",
+        "line": 10,
+        "name": "Fb Sigin for Ecx",
+        "description": "",
+        "id": "1clx-site-sso-login-for-ecx;fb-sigin-for-ecx",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16230391300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user enters the Fb-Signin page",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_ECX.the_user_enters_the_fb_signin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6441891100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters their valid credentials",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_ECX.user_enters_their_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3106941900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Users should click login button for signin",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_ECX.users_should_click_login_button_for_signin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Facebook"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-12T10:06:36.146Z",
+        "line": 16,
+        "name": "Twitter Signin for Ecx",
+        "description": "",
+        "id": "1clx-site-sso-login-for-ecx;twitter-signin-for-ecx",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19295698100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the User enters the Twitter-Sigin page",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_ECX.the_user_enters_the_twitter_sigin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6378758200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters credentials",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_ECX.the_user_enters_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6871892500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should click signin button for entering account dashboard",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_ECX.user_should_click_signin_button_for_entering_account_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Twitter"
+          }
+        ]
+      }
+    ],
+    "name": "1clx site SSO Login for ECX",
+    "description": "",
+    "id": "1clx-site-sso-login-for-ecx",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/ECX_SSO_Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-12T10:07:08.779Z",
+        "line": 4,
+        "name": "Google sign in testing",
+        "description": "",
+        "id": "1clxlite-sso-login-testing;google-sign-in-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5307898200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to enter 1clx site landing page",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.i_want_to_enter_1clx_site_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1077985100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks the signin button",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.clicks_the_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10736749700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I clicks google icon and enters the signin with Google page",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.i_clicks_google_icon_and_enters_the_signin_with_google_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4050199200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enters the mail id and clicks the next button",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.enters_the_mail_id_and_clicks_the_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//input[@class\u003d\u0027whsOnd zHQkBf\u0027])[1]\"}\n  (Session info: chrome\u003d111.0.5563.148)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6ba644d8450357885c33095b041575bc, findElement {using\u003dxpath, value\u003d(//input[@class\u003d\u0027whsOnd zHQkBf\u0027])[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.148, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\SACHIT~1.S\\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:60676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60676/devtoo..., se:cdpVersion: 111.0.5563.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 6ba644d8450357885c33095b041575bc\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat StepDefinition_1clxlite.SSO_Login_Test.enters_the_password_and_clicks_the_next_button(SSO_Login_Test.java:67)\r\n\tat ✽.enters the password and clicks the next button(file:///C:/Users/Sachithanandhan.S/git/1clxlite_version-1/src/test/resources/FeatureFiles/SSO_Login.feature:9)\r\n",
+              "duration": 30085838800,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "enters the password and clicks the next button",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.enters_the_password_and_clicks_the_next_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Google"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-12T10:08:00.110Z",
+        "line": 12,
+        "name": "Facebook sign in testing",
+        "description": "",
+        "id": "1clxlite-sso-login-testing;facebook-sign-in-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5364806900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I clicks facebook icon and enters the signin with Fb page",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.i_clicks_facebook_icon_and_enters_the_signin_with_fb_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3201880800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enters the fb-mail id",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.enters_the_fb_mail_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3165521600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enters the fb-password",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.enters_the_fb_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3181465000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "i clicks the login button",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.i_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3008963800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enters the PCX profile create section",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.enters_the_pcx_profile_create_section()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Facebook"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-12T10:08:18.057Z",
+        "line": 20,
+        "name": "Twitter signin testing",
+        "description": "",
+        "id": "1clxlite-sso-login-testing;twitter-signin-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9974025400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I clicks Twitter icon and enters the signin with Twitter page",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.i_clicks_twitter_icon_and_enters_the_signin_with_twitter_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3781093000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "enters the Twitter-mail id",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.enters_the_twitter_mail_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3143817400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "enters the Twitter-password",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.enters_the_twitter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6913023600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "i clicks the Signin button",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.i_clicks_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5016564500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "It should enters the PCX profile create section",
+            "match": {
+              "location": "StepDefinition_1clxlite.SSO_Login_Test.it_should_enters_the_pcx_profile_create_section()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Twitter"
+          }
+        ]
+      }
+    ],
+    "name": "1clxlite SSO Login testing",
+    "description": "",
+    "id": "1clxlite-sso-login-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/SSO_Login.feature",
+    "tags": []
+  }
+]
