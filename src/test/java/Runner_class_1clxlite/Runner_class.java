@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 
-
+@RunWith(Cucumber.class)
 @CucumberOptions(features = "C:\\Users\\Dinesh K\\eclipse-workspace\\1clxlite_version-1\\src\\test\\resources\\Features",
 
 glue= "StepDefinition_1clxlite" , 
