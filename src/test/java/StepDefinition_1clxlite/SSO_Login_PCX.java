@@ -13,7 +13,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class SSO_Login_Test 
+public class SSO_Login_PCX 
 {
 	public static WebDriver driver;
 	
@@ -28,10 +28,11 @@ public class SSO_Login_Test
 	}
 
 	@When("clicks the signin button")
-	public void clicks_the_signin_button() 
+	public void clicks_the_signin_button() throws InterruptedException 
 	{
-	    WebElement signinBtn = driver.findElement(By.xpath("//a[text()='Login']"));
-	    signinBtn.click();
+		WebElement signinbtn = driver.findElement(By.partialLinkText("Signup"));
+		signinbtn.click();
+	    Thread.sleep(2000);
 	    
 	}
 
@@ -39,11 +40,9 @@ public class SSO_Login_Test
 	public void i_clicks_google_icon_and_enters_the_signin_with_google_page() throws InterruptedException 
 	{
 		
-		WebElement signinbtn = driver.findElement(By.xpath("//a[@id='signIn']"));
-		signinbtn.click();
-	    Thread.sleep(3000);
+		
 
-	  WebElement googleicon = driver.findElement(By.xpath("(//img[@class='img-fluid google_img mx-1'])[2]"));
+	  WebElement googleicon = driver.findElement(By.xpath("(//img[@class='img-fluid google_img mx-1'])[1]"));
 	  googleicon.click();
 	    Thread.sleep(3000);
 
@@ -70,7 +69,7 @@ public class SSO_Login_Test
 	    
 	    Thread.sleep(3000);
 	    
-	    //driver.close();
+	    driver.close();
 	    
 	}
 
@@ -80,9 +79,12 @@ public class SSO_Login_Test
 		System.setProperty("webdriver.http.factory", "jdk-http-client");
 		   driver=new ChromeDriver();
 		    driver.manage().window().maximize();
-		    driver.get("https://dev.1clxlite.com/login#");
+		    driver.get("https://dev.1clxlite.com/");
 		    driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		    
+		    WebElement signinbtn = driver.findElement(By.partialLinkText("Signup"));
+			signinbtn.click();
+		    		    
 		    WebElement fbicon = driver.findElement(By.xpath("(//img[@class='img-fluid facebook_img mx-1'])[1]"));
 		    fbicon.click();
 		    
@@ -95,7 +97,7 @@ public class SSO_Login_Test
 		
 	   WebElement fbmail = driver.findElement(By.xpath("//input[@id='email']"));
 	   fbmail.sendKeys("oneclickusaads@gmail.com");
-	    Thread.sleep(3000);
+	    Thread.sleep(2000);
 
 	   
 	}
@@ -106,7 +108,7 @@ public class SSO_Login_Test
 		
 	    WebElement fbpass = driver.findElement(By.xpath("//input[@id='pass']"));
 	    fbpass.sendKeys("Onecl@ck@3214");
-	    Thread.sleep(3000);
+	    Thread.sleep(2000);
 
 	}
 
@@ -116,15 +118,20 @@ public class SSO_Login_Test
 		
 	    WebElement loginbtn = driver.findElement(By.xpath("//button[@id='loginbutton']"));
 	    loginbtn.click();
-	    Thread.sleep(3000);
+	    Thread.sleep(2000);
 
 	}
 
 	@Then("enters the PCX profile create section")
 	public void enters_the_pcx_profile_create_section() throws InterruptedException
 	{
+		
+		WebElement businessname = driver.findElement(By.xpath("//input[@class='form-control p-3 border-primary border-1 rounded-3']"));
+		businessname.sendKeys("Testing");
+		
 		Thread.sleep(3000);
-	   //driver.close();
+	   
+		driver.close();
 	}
 
 	@Given("I clicks Twitter icon and enters the signin with Twitter page")
@@ -134,9 +141,13 @@ public class SSO_Login_Test
 		System.setProperty("webdriver.http.factory", "jdk-http-client");
 		driver=new ChromeDriver();
 		    driver.manage().window().maximize();
-		    driver.get("https://dev.1clxlite.com/login#");
+		    driver.get("https://dev.1clxlite.com/");
 		    driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		    
+		    
+		    WebElement signinbtn = driver.findElement(By.partialLinkText("Signup"));
+			signinbtn.click();
+			
 		WebElement twittericon = driver.findElement(By.xpath("(//img[@class='img-fluid twitter_img mx-1 text-decoration-none'])[1]"));
 		twittericon.click();
 		
@@ -174,8 +185,12 @@ public class SSO_Login_Test
 	@Then("It should enters the PCX profile create section")
 	public void it_should_enters_the_pcx_profile_create_section() throws InterruptedException
 	{
+		WebElement businessname = driver.findElement(By.xpath("//input[@class='form-control p-3 border-primary border-1 rounded-3']"));
+		businessname.sendKeys("Testing");
+		
+		
 		 Thread.sleep(5000);
-	   //driver.close();
+	   driver.close();
 	}
 
 

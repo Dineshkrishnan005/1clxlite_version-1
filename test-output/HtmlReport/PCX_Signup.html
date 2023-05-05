@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Automation Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Apr 13, 2023 11:55:01 AM</span></a>
+<a href="#"><span class="badge badge-primary">Apr 15, 2023 01:37:38 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,7 +66,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -74,25 +74,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">PCX Edit profile Testing</p>
+            <p class="name">1clx signup testing</p>
             <p class="text-sm">
-              <span>11:55:03 AM</span> / <span>00:00:00:367</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>1:37:40 PM</span> / <span>00:01:09:581</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">PCX Edit profile Testing</h5>
-<span class='badge badge-success'>04.13.2023 11:55:03 AM</span>
-<span class='badge badge-danger'>04.13.2023 11:55:03 AM</span>
-<span class='badge badge-default'>00:00:00:367</span>
+<h5 class="test-status text-pass">1clx signup testing</h5>
+<span class='badge badge-success'>04.15.2023 1:37:40 PM</span>
+<span class='badge badge-danger'>04.15.2023 1:38:49 PM</span>
+<span class='badge badge-default'>00:01:09:581</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -104,141 +104,106 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Name Updation</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>As a user i want to signup with my valid credentials</div>
       </div>
     </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step fail-bg" >
-                <span>Given Login with Valid entries and navigate to Dashboard</span>
-      <div>Step undefined
-      </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>As a user i want to signup with my valid credentials</div>
+                </div>
               </div>
-              <div class="step skip-bg" >
-                <span>When User enters the PCX Profile dashboard section and clicks the navbar</span>
-      <div>Step skipped
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I want enter signup section</span>
+      <div>
       </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I enter "SachinTesting" , "sachinanand584@gmail.com" and "Sachin@33"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I clicks the signup button for otp verification</span>
+      <div>
+      </div>
+                  </div>
               </div>
-              <div class="step skip-bg" >
-                <span>And User clicks the My profile</span>
-      <div>Step skipped
-      </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>As a user i want to signup with my valid credentials</div>
+                </div>
               </div>
-              <div class="step skip-bg" >
-                <span>And User enters the name</span>
-      <div>Step skipped
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I want enter signup section</span>
+      <div>
       </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I enter "" , "" and ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I clicks the signup button for otp verification</span>
+      <div>
+      </div>
+                  </div>
               </div>
-              <div class="step skip-bg" >
-                <span>And User enters the Phone number</span>
-      <div>Step skipped
-      </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="11"><span class="badge log pass-bg mr-2">Pass</span>As a user i want to signup with my valid credentials</div>
+                </div>
               </div>
-              <div class="step skip-bg" >
-                <span>Then User clicks the UpdateButton1</span>
-      <div>Step skipped
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I want enter signup section</span>
+      <div>
       </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I enter "123456" , "sachin@@gmail.com" and "12345678"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I clicks the signup button for otp verification</span>
+      <div>
+      </div>
+                  </div>
               </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="9"><span class="badge log fail-bg mr-2">Fail</span>Password Updation</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step fail-bg" >
-                <span>Given User enters the Old password</span>
-      <div>Step undefined
-      </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>As a user i want to signup with my valid credentials</div>
+                </div>
               </div>
-              <div class="step skip-bg" >
-                <span>When User enters the New Password</span>
-      <div>Step skipped
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I want enter signup section</span>
+      <div>
       </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I enter "!@%^!!!" , "%@^@^@gmail.com" and "Sachin@1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I clicks the signup button for otp verification</span>
+      <div>
+      </div>
+                  </div>
               </div>
-              <div class="step skip-bg" >
-                <span>And User enters the Verify password</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" >
-                <span>Then User clicks the UpdateButton2</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="14"><span class="badge log fail-bg mr-2">Fail</span>Razorpay Updation</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step fail-bg" >
-                <span>Given User enters the Razorpay id</span>
-      <div>Step undefined
-      </div>
-              </div>
-              <div class="step skip-bg" >
-                <span>When User enters the Razorpay Key</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" >
-                <span>Then User clicks the UpdateButton3</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="18"><span class="badge log fail-bg mr-2">Fail</span>Business Updation</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step fail-bg" >
-                <span>Given User choose the business</span>
-      <div>Step undefined
-      </div>
-              </div>
-              <div class="step skip-bg" >
-                <span>Then User clicks the UpdateButton4</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="21"><span class="badge log fail-bg mr-2">Fail</span>Gst Updation</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step fail-bg" >
-                <span>And User enters the Gst Number</span>
-      <div>Step undefined
-      </div>
-              </div>
-              <div class="step skip-bg" >
-                <span>And User clicks the Update Button5</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
+            </div>
         </div>
   </div>
 </div>
@@ -258,25 +223,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Apr 13, 2023 11:55:01 AM</h3>
+<h3>Apr 15, 2023 01:37:38 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Apr 13, 2023 11:55:03 AM</h3>
+<h3>Apr 15, 2023 01:38:49 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -292,12 +257,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> features passed
+<div><small data-tooltip='100%'>
+<b>1</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>1</b> features failed,
+<small data-tooltip='0%'><b>0</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -315,9 +280,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>4</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='100%'><b>5</b> scenarios failed,
+<small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -335,10 +300,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>12</b> steps passed</small></div>
 <div>
-<small data-tooltip='29%'><b>5</b> steps failed,
-<b>12</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -354,7 +319,7 @@
 </div></div>
 <script>
 var timeline = {
-"PCX Edit profile Testing":0.367
+"1clx signup testing":69.581
 };
 </script>
 <div class="row">
@@ -363,21 +328,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 1,
+passParent: 1,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 0,
-failChild: 5,
+passChild: 4,
+failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 0,
-failGrandChild: 5,
+passGrandChild: 12,
+failGrandChild: 0,
 warningGrandChild: 0,
-skipGrandChild: 12,
+skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 };
