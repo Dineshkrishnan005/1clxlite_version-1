@@ -26,21 +26,18 @@ public class SSO_Login_ECX
 		driver.get("https://dev.1clxlite.com/");
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 
-		WebElement loginbtn = driver.findElement(By.xpath("(//a[@class='text-decoration-none'])[2]"));
-		loginbtn.click();
-
-		WebElement signin = driver.findElement(By.xpath("//a[@id='signIn']"));
-		signin.click();
+		WebElement signupbtn = driver.findElement(By.partialLinkText("Signup"));
+		signupbtn.click();
+        
+		WebElement radiobtn = driver.findElement(By.xpath("//input[@id='ecxRadio']"));
+		radiobtn.click();
 		
 		Thread.sleep(3000);
-        
-		WebElement radiobtn = driver.findElement(By.xpath("//input[@id='loginEcxRadio']"));
-		radiobtn.click();
-		Thread.sleep(3000);
 
-		WebElement googleicon = driver.findElement(By.xpath("(//img[@class='img-fluid google_img mx-1'])[2]"));
+		WebElement googleicon = driver.findElement(By.xpath("(//img[@class='img-fluid google_img mx-1'])[1]"));
 		googleicon.click();
-		Thread.sleep(3000);
+		
+		Thread.sleep(2000);
 	}
 
 	@When("user enters their credentials")
@@ -60,36 +57,31 @@ public class SSO_Login_ECX
 	@Then("User sees the results depends on their credentils")
 	public void user_sees_the_results_depends_on_their_credentils()
 	{
-	    driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+	    driver.quit();
 	}
 
 	@Given("the user enters the Fb-Signin page")
 	public void the_user_enters_the_fb_signin_page() throws InterruptedException
 	{
+		
 		System.setProperty("webdriver.http.factory", "jdk-http-client");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://dev.1clxlite.com/");
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 
-
-		WebElement loginbtn = driver.findElement(By.xpath("(//a[@class='text-decoration-none'])[2]"));
-		loginbtn.click();
-
-
-		WebElement signin = driver.findElement(By.xpath("//a[@id='signIn']"));
-		signin.click();
-		Thread.sleep(3000);
-
+		WebElement signupbtn = driver.findElement(By.partialLinkText("Signup"));
+		signupbtn.click();
         
-		WebElement radiobtn = driver.findElement(By.xpath("//input[@id='loginEcxRadio']"));
+		WebElement radiobtn = driver.findElement(By.xpath("//input[@id='ecxRadio']"));
 		radiobtn.click();
+		
+		
 		Thread.sleep(3000);
 
-		WebElement fbicon = driver.findElement(By.xpath("(//img[@class='img-fluid facebook_img mx-1'])[2]"));
+		WebElement fbicon = driver.findElement(By.xpath("(//img[@class='img-fluid facebook_img mx-1'])[1]"));
 		fbicon.click();
-		Thread.sleep(3000);
-
+		
 	}
 
 	@When("user enters their valid credentials")
@@ -97,11 +89,11 @@ public class SSO_Login_ECX
 	{
 		WebElement fbmail = driver.findElement(By.xpath("//input[@id='email']"));
 		fbmail.sendKeys("oneclickusaads@gmail.com");
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 
 		WebElement fbpass = driver.findElement(By.xpath("//input[@id='pass']"));
 		fbpass.sendKeys("Onecl@ck@3214");
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 	}
 
 	@Then("Users should click login button for signin")
@@ -110,6 +102,8 @@ public class SSO_Login_ECX
 		 WebElement loginbtn = driver.findElement(By.xpath("//button[@id='loginbutton']"));
 		    loginbtn.click();
 		    Thread.sleep(3000);
+		    
+		    //driver.quit();
 	}
 
 	@Given("the User enters the Twitter-Sigin page")
@@ -121,18 +115,15 @@ public class SSO_Login_ECX
 		driver.get("https://dev.1clxlite.com/");
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 
-		WebElement loginbtn = driver.findElement(By.xpath("(//a[@class='text-decoration-none'])[2]"));
-		loginbtn.click();
-
-		WebElement signin = driver.findElement(By.xpath("//a[@id='signIn']"));
-		signin.click();
-		Thread.sleep(3000);
-
-		WebElement radiobtn = driver.findElement(By.xpath("//input[@id='loginEcxRadio']"));
+		WebElement signupbtn = driver.findElement(By.partialLinkText("Signup"));
+		signupbtn.click();
+        
+		WebElement radiobtn = driver.findElement(By.xpath("//input[@id='ecxRadio']"));
 		radiobtn.click();
+		
 		Thread.sleep(3000);
 
-		WebElement twittericon = driver.findElement(By.xpath("(//img[@class='img-fluid twitter_img mx-1 text-decoration-none'])[2]"));
+		WebElement twittericon = driver.findElement(By.xpath("(//img[@class='img-fluid twitter_img mx-1 text-decoration-none'])[1]"));
 		twittericon.click();
 		Thread.sleep(3000);
 
@@ -156,6 +147,8 @@ public class SSO_Login_ECX
 		WebElement signin = driver.findElement(By.xpath("//input[@id='allow']"));
 	    signin.click();
 	    Thread.sleep(5000);
+	    
+	    //driver.quit();
 	}
 
 

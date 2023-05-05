@@ -3,6 +3,7 @@
     "line": 1,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2023-04-25T08:13:54.571Z",
         "line": 3,
         "name": "Business profile",
@@ -21,11 +22,31 @@
             "name": "Successful Login with Valid entries and navigate to Business Profile",
             "match": {
               "location": "StepDefinition_1clxlite.Business_creation.successful_login_with_valid_entries_and_navigate_to_business_profile()"
+=======
+        "start_timestamp": "2023-04-28T07:03:18.797Z",
+        "line": 11,
+        "name": "ECX Signin Testing",
+        "description": "",
+        "id": "1clx-signin-feature-for-ecx-user;ecx-signin-testing;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11139070000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user enters the ECX Signin page",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_signin_page()"
+>>>>>>> a2d9907e542a7deeba8339b43282844bb6827a72
             },
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 997600,
               "status": "skipped"
             },
@@ -569,10 +590,56 @@
         "tags": [
           {
             "name": "@Google"
+=======
+              "duration": 4327284000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters the credentials like \"sachithanandhansp2533@gmail.com\" and \"Sachin@00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sachithanandhansp2533@gmail.com\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Sachin@00\"",
+                  "offset": 75
+                }
+              ],
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_credentials_like_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3082573300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks the ECX Login button",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_clicks_the_ecx_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2500264100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user enters the ECX Dashboard",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_dashboard()"
+            },
+            "keyword": "Then "
+>>>>>>> a2d9907e542a7deeba8339b43282844bb6827a72
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2023-04-25T08:17:50.359Z",
         "line": 12,
         "name": "Facebook sign in testing",
@@ -590,11 +657,31 @@
             "name": "I clicks facebook icon and enters the signin with Fb page",
             "match": {
               "location": "StepDefinition_1clxlite.SSO_Login_Test.i_clicks_facebook_icon_and_enters_the_signin_with_fb_page()"
+=======
+        "start_timestamp": "2023-04-28T07:03:40.102Z",
+        "line": 12,
+        "name": "ECX Signin Testing",
+        "description": "",
+        "id": "1clx-signin-feature-for-ecx-user;ecx-signin-testing;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11493417000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user enters the ECX Signin page",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_signin_page()"
+>>>>>>> a2d9907e542a7deeba8339b43282844bb6827a72
             },
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 3194293100,
               "status": "passed"
             },
@@ -602,11 +689,31 @@
             "name": "enters the fb-mail id",
             "match": {
               "location": "StepDefinition_1clxlite.SSO_Login_Test.enters_the_fb_mail_id()"
+=======
+              "duration": 4159751600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters the credentials like \"\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_credentials_like_and(java.lang.String,java.lang.String)"
+>>>>>>> a2d9907e542a7deeba8339b43282844bb6827a72
             },
             "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 3237439100,
               "status": "passed"
             },
@@ -614,11 +721,21 @@
             "name": "enters the fb-password",
             "match": {
               "location": "StepDefinition_1clxlite.SSO_Login_Test.enters_the_fb_password()"
+=======
+              "duration": 3076669300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks the ECX Login button",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_clicks_the_ecx_login_button()"
+>>>>>>> a2d9907e542a7deeba8339b43282844bb6827a72
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 3098152000,
               "status": "passed"
             },
@@ -666,11 +783,45 @@
             "name": "I clicks Twitter icon and enters the signin with Twitter page",
             "match": {
               "location": "StepDefinition_1clxlite.SSO_Login_Test.i_clicks_twitter_icon_and_enters_the_signin_with_twitter_page()"
+=======
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//i[@class\u003d\u0027fa-solid fa-bars-staggered navbar-toggler main-color3 fs-2\u0027]\"}\n  (Session info: chrome\u003d112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a8261bf6e7d33070401c8329997b1d9a, findElement {using\u003dxpath, value\u003d//i[@class\u003d\u0027fa-solid fa-bars-staggered navbar-toggler main-color3 fs-2\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\SACHIT~1.S\\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52805/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: a8261bf6e7d33070401c8329997b1d9a\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_dashboard(ECX_LoginTest.java:67)\r\n\tat ✽.the user enters the ECX Dashboard(file:///C:/Users/Sachithanandhan.S/git/1clxlite_version-1/src/test/resources/FeatureFiles/ECX_SignIn.feature:7)\r\n",
+              "duration": 30072529900,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the user enters the ECX Dashboard",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-28T07:04:28.988Z",
+        "line": 13,
+        "name": "ECX Signin Testing",
+        "description": "",
+        "id": "1clx-signin-feature-for-ecx-user;ecx-signin-testing;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8460018700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user enters the ECX Signin page",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_signin_page()"
+>>>>>>> a2d9907e542a7deeba8339b43282844bb6827a72
             },
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 3913293600,
               "status": "passed"
             },
@@ -678,11 +829,31 @@
             "name": "enters the Twitter-mail id",
             "match": {
               "location": "StepDefinition_1clxlite.SSO_Login_Test.enters_the_twitter_mail_id()"
+=======
+              "duration": 4252284500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters the credentials like \"sachinanand584@gmail.com\" and \"Sachin@11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sachinanand584@gmail.com\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Sachin@11\"",
+                  "offset": 68
+                }
+              ],
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_credentials_like_and(java.lang.String,java.lang.String)"
+>>>>>>> a2d9907e542a7deeba8339b43282844bb6827a72
             },
             "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 3127519000,
               "status": "passed"
             },
@@ -690,11 +861,21 @@
             "name": "enters the Twitter-password",
             "match": {
               "location": "StepDefinition_1clxlite.SSO_Login_Test.enters_the_twitter_password()"
+=======
+              "duration": 3103041500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks the ECX Login button",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_clicks_the_ecx_login_button()"
+>>>>>>> a2d9907e542a7deeba8339b43282844bb6827a72
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 9133403500,
               "status": "passed"
             },
@@ -721,15 +902,175 @@
         "tags": [
           {
             "name": "@Twitter"
+=======
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//i[@class\u003d\u0027fa-solid fa-bars-staggered navbar-toggler main-color3 fs-2\u0027]\"}\n  (Session info: chrome\u003d112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4c6a3e1a24fa9daa94dbd47610678cc5, findElement {using\u003dxpath, value\u003d//i[@class\u003d\u0027fa-solid fa-bars-staggered navbar-toggler main-color3 fs-2\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\SACHIT~1.S\\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52874/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4c6a3e1a24fa9daa94dbd47610678cc5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_dashboard(ECX_LoginTest.java:67)\r\n\tat ✽.the user enters the ECX Dashboard(file:///C:/Users/Sachithanandhan.S/git/1clxlite_version-1/src/test/resources/FeatureFiles/ECX_SignIn.feature:7)\r\n",
+              "duration": 30073977500,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the user enters the ECX Dashboard",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-28T07:05:14.938Z",
+        "line": 14,
+        "name": "ECX Signin Testing",
+        "description": "",
+        "id": "1clx-signin-feature-for-ecx-user;ecx-signin-testing;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8283132200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user enters the ECX Signin page",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_signin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4307410000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters the credentials like \"sachithanandhansp2533@gmail.com\" and \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sachithanandhansp2533@gmail.com\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 75
+                }
+              ],
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_credentials_like_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3079101900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks the ECX Login button",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_clicks_the_ecx_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//i[@class\u003d\u0027fa-solid fa-bars-staggered navbar-toggler main-color3 fs-2\u0027]\"}\n  (Session info: chrome\u003d112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [83e3e9a4a046c064d6cd5d22d50d4663, findElement {using\u003dxpath, value\u003d//i[@class\u003d\u0027fa-solid fa-bars-staggered navbar-toggler main-color3 fs-2\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\SACHIT~1.S\\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:53033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53033/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 83e3e9a4a046c064d6cd5d22d50d4663\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_dashboard(ECX_LoginTest.java:67)\r\n\tat ✽.the user enters the ECX Dashboard(file:///C:/Users/Sachithanandhan.S/git/1clxlite_version-1/src/test/resources/FeatureFiles/ECX_SignIn.feature:7)\r\n",
+              "duration": 30058488500,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the user enters the ECX Dashboard",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-28T07:06:00.701Z",
+        "line": 15,
+        "name": "ECX Signin Testing",
+        "description": "",
+        "id": "1clx-signin-feature-for-ecx-user;ecx-signin-testing;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8048894700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user enters the ECX Signin page",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_signin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4217732900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters the credentials like \"sachin@gmail.com\" and \"Sachin@00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sachin@gmail.com\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Sachin@00\"",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_credentials_like_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3072046700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks the ECX Login button",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_clicks_the_ecx_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//i[@class\u003d\u0027fa-solid fa-bars-staggered navbar-toggler main-color3 fs-2\u0027]\"}\n  (Session info: chrome\u003d112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [510a564b80a5ded33488f9a1b1b40608, findElement {using\u003dxpath, value\u003d//i[@class\u003d\u0027fa-solid fa-bars-staggered navbar-toggler main-color3 fs-2\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\SACHIT~1.S\\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:53169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53169/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 510a564b80a5ded33488f9a1b1b40608\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_dashboard(ECX_LoginTest.java:67)\r\n\tat ✽.the user enters the ECX Dashboard(file:///C:/Users/Sachithanandhan.S/git/1clxlite_version-1/src/test/resources/FeatureFiles/ECX_SignIn.feature:7)\r\n",
+              "duration": 30037263600,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the user enters the ECX Dashboard",
+            "match": {
+              "location": "StepDefinition_1clxlite.ECX_LoginTest.the_user_enters_the_ecx_dashboard()"
+            },
+            "keyword": "Then "
+>>>>>>> a2d9907e542a7deeba8339b43282844bb6827a72
           }
         ]
       }
     ],
+<<<<<<< HEAD
     "name": "1clxlite SSO Login testing",
     "description": "",
     "id": "1clxlite-sso-login-testing",
     "keyword": "Feature",
     "uri": "file:src/test/resources/Features/SSO_Login.feature",
+=======
+    "name": "1clx signin feature for ECX User",
+    "description": "",
+    "id": "1clx-signin-feature-for-ecx-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/ECX_SignIn.feature",
+>>>>>>> a2d9907e542a7deeba8339b43282844bb6827a72
     "tags": []
   }
 ]
