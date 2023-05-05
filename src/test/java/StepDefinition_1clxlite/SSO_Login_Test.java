@@ -16,107 +16,107 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class SSO_Login_Test 
 {
 	public static WebDriver driver;
-	
+
 	@Given("I want to enter 1clx site landing page")
 	public void i_want_to_enter_1clx_site_landing_page() 
 	{
 		System.setProperty("webdriver.http.factory", "jdk-http-client");
-	    driver=new ChromeDriver();
-	    driver.manage().window().maximize();
-	    driver.get("https://dev.1clxlite.com/");
-	    driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://dev.1clxlite.com/");
+		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	}
 
 	@When("clicks the signin button")
 	public void clicks_the_signin_button() 
 	{
-	    WebElement signinBtn = driver.findElement(By.xpath("//a[text()='Login']"));
-	    signinBtn.click();
-	    
+		WebElement signinBtn = driver.findElement(By.xpath("//a[text()='Login']"));
+		signinBtn.click();
+
 	}
 
 	@When("I clicks google icon and enters the signin with Google page")
 	public void i_clicks_google_icon_and_enters_the_signin_with_google_page() throws InterruptedException 
 	{
-		
+
 		WebElement signinbtn = driver.findElement(By.xpath("//a[@id='signIn']"));
 		signinbtn.click();
-	    Thread.sleep(3000);
+		Thread.sleep(3000);
 
-	  WebElement googleicon = driver.findElement(By.xpath("(//img[@class='img-fluid google_img mx-1'])[2]"));
-	  googleicon.click();
-	    Thread.sleep(3000);
+		WebElement googleicon = driver.findElement(By.xpath("(//img[@class='img-fluid google_img mx-1'])[2]"));
+		googleicon.click();
+		Thread.sleep(3000);
 
 	}
 
 	@When("enters the mail id and clicks the next button")
 	public void enters_the_mail_id_and_clicks_the_next_button() throws InterruptedException 
 	{
-		
-	    WebElement entermail = driver.findElement(By.xpath("//input[@id='identifierId']"));
-	    entermail.sendKeys("sachinanand584@gmail.com");
-	    entermail.sendKeys(Keys.ENTER);
-	    Thread.sleep(3000);
+
+		WebElement entermail = driver.findElement(By.xpath("//input[@id='identifierId']"));
+		entermail.sendKeys("sachinanand584@gmail.com");
+		entermail.sendKeys(Keys.ENTER);
+		Thread.sleep(3000);
 
 	}
 
 	@When("enters the password and clicks the next button")
 	public void enters_the_password_and_clicks_the_next_button() throws InterruptedException
 	{
-		
-	    WebElement enterpass = driver.findElement(By.xpath("(//input[@class='whsOnd zHQkBf'])[1]"));
-	    enterpass.sendKeys("Sachin@16");
-	    enterpass.sendKeys(Keys.ENTER);
-	    
-	    Thread.sleep(3000);
-	    
-	    //driver.close();
-	    
+
+		WebElement enterpass = driver.findElement(By.xpath("(//input[@class='whsOnd zHQkBf'])[1]"));
+		enterpass.sendKeys("Sachin@16");
+		enterpass.sendKeys(Keys.ENTER);
+
+		Thread.sleep(3000);
+
+		//driver.close();
+
 	}
 
 	@Given("I clicks facebook icon and enters the signin with Fb page")
 	public void i_clicks_facebook_icon_and_enters_the_signin_with_fb_page() 
 	{
 		System.setProperty("webdriver.http.factory", "jdk-http-client");
-		   driver=new ChromeDriver();
-		    driver.manage().window().maximize();
-		    driver.get("https://dev.1clxlite.com/login#");
-		    driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-		    
-		    WebElement fbicon = driver.findElement(By.xpath("(//img[@class='img-fluid facebook_img mx-1'])[1]"));
-		    fbicon.click();
-		    
-		    
+		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://dev.1clxlite.com/login#");
+		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+
+		WebElement fbicon = driver.findElement(By.xpath("(//img[@class='img-fluid facebook_img mx-1'])[1]"));
+		fbicon.click();
+
+
 	}
 
 	@When("enters the fb-mail id")
 	public void enters_the_fb_mail_id() throws InterruptedException 
 	{
-		
-	   WebElement fbmail = driver.findElement(By.xpath("//input[@id='email']"));
-	   fbmail.sendKeys("oneclickusaads@gmail.com");
-	    Thread.sleep(3000);
 
-	   
+		WebElement fbmail = driver.findElement(By.xpath("//input[@id='email']"));
+		fbmail.sendKeys("oneclickusaads@gmail.com");
+		Thread.sleep(3000);
+
+
 	}
 
 	@When("enters the fb-password")
 	public void enters_the_fb_password() throws InterruptedException 
 	{
-		
-	    WebElement fbpass = driver.findElement(By.xpath("//input[@id='pass']"));
-	    fbpass.sendKeys("Onecl@ck@3214");
-	    Thread.sleep(3000);
+
+		WebElement fbpass = driver.findElement(By.xpath("//input[@id='pass']"));
+		fbpass.sendKeys("Onecl@ck@3214");
+		Thread.sleep(3000);
 
 	}
 
 	@When("i clicks the login button")
 	public void i_clicks_the_login_button() throws InterruptedException 
 	{
-		
-	    WebElement loginbtn = driver.findElement(By.xpath("//button[@id='loginbutton']"));
-	    loginbtn.click();
-	    Thread.sleep(3000);
+
+		WebElement loginbtn = driver.findElement(By.xpath("//button[@id='loginbutton']"));
+		loginbtn.click();
+		Thread.sleep(3000);
 
 	}
 
@@ -124,58 +124,58 @@ public class SSO_Login_Test
 	public void enters_the_pcx_profile_create_section() throws InterruptedException
 	{
 		Thread.sleep(3000);
-	   //driver.close();
+		//driver.close();
 	}
 
 	@Given("I clicks Twitter icon and enters the signin with Twitter page")
 	public void i_clicks_twitter_icon_and_enters_the_signin_with_twitter_page()
 	{
-      
+
 		System.setProperty("webdriver.http.factory", "jdk-http-client");
 		driver=new ChromeDriver();
-		    driver.manage().window().maximize();
-		    driver.get("https://dev.1clxlite.com/login#");
-		    driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-		    
+		driver.manage().window().maximize();
+		driver.get("https://dev.1clxlite.com/login#");
+		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+
 		WebElement twittericon = driver.findElement(By.xpath("(//img[@class='img-fluid twitter_img mx-1 text-decoration-none'])[1]"));
 		twittericon.click();
-		
+
 	}
 
 	@When("enters the Twitter-mail id")
 	public void enters_the_twitter_mail_id() throws InterruptedException 
 	{
-		
-	    WebElement usermail = driver.findElement(By.xpath("//input[@id='username_or_email']"));
-	    usermail.sendKeys("oneclickusaads@gmail.com");
-	    Thread.sleep(3000);
+
+		WebElement usermail = driver.findElement(By.xpath("//input[@id='username_or_email']"));
+		usermail.sendKeys("oneclickusaads@gmail.com");
+		Thread.sleep(3000);
 
 	}
 
 	@When("enters the Twitter-password")
 	public void enters_the_twitter_password() throws InterruptedException 
 	{
-		
-	    WebElement userpass = driver.findElement(By.xpath("//input[@id='password']"));
-	    userpass.sendKeys("Onecl@ck@3214");
-	    Thread.sleep(3000);
+
+		WebElement userpass = driver.findElement(By.xpath("//input[@id='password']"));
+		userpass.sendKeys("Onecl@ck@3214");
+		Thread.sleep(3000);
 
 	}
 
 	@When("i clicks the Signin button")
 	public void i_clicks_the_signin_button() throws InterruptedException 
 	{
-	    WebElement signin = driver.findElement(By.xpath("//input[@id='allow']"));
-	    signin.click();
-	    Thread.sleep(5000);
+		WebElement signin = driver.findElement(By.xpath("//input[@id='allow']"));
+		signin.click();
+		Thread.sleep(5000);
 
 	}
 
 	@Then("It should enters the PCX profile create section")
 	public void it_should_enters_the_pcx_profile_create_section() throws InterruptedException
 	{
-		 Thread.sleep(5000);
-	   //driver.close();
+		Thread.sleep(5000);
+		//driver.close();
 	}
 
 

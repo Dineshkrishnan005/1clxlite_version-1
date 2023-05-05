@@ -14,10 +14,10 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Business_creation {
-	
-	public static WebDriver driver;
-	
-// 1.Business Profile  
+
+	public static WebDriver driver;  
+
+	// 1.Business Profile  
 	@Given("Successful Login with Valid entries and navigate to Business Profile")
 	public void successful_login_with_valid_entries_and_navigate_to_business_profile() throws InterruptedException {
 		System.setProperty("webdriver.http.factory", "jdk-http-client");
@@ -25,10 +25,10 @@ public class Business_creation {
 		driver.manage().window().maximize();
 		driver.get("https://dev.1clxlite.com/");
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-		
+
 		WebElement login = driver.findElement(By.xpath("(//button[@type='submit'])[2]"));
 		login.click();
-		
+
 		/*
 		 * WebElement facebook =
 		 * driver.findElement(By.xpath("(//img[@alt='facebook.svg'])[1]"));
@@ -50,13 +50,13 @@ public class Business_creation {
 	public void user_able_to_click_the_checkbox_for_service_or_product() {
 		WebElement checkbox = driver.findElement(By.xpath("//input[@name='services']"));
 		checkbox.click();
-		
+
 	}
 	@When("User able to enter the Business Name")
 	public void user_able_to_enter_the_business_name() {
 		WebElement businessName = driver.findElement(By.xpath("(//input[@type='text'])[1]"));
 		businessName.sendKeys("Quality Analyst");
-		
+
 	}
 	@When("User able to enter the Multiple category of Business")
 	public void user_able_to_enter_the_multiple_category_of_business() {
@@ -67,10 +67,10 @@ public class Business_creation {
 	public void click_the_next_button() {
 		WebElement businessButton = driver.findElement(By.xpath("(//button[@type='submit'])[1]"));
 		businessButton.sendKeys(Keys.ENTER);
-		
-		
+
+
 	}
-	
+
 	//2.Location & contact info
 	@Given("User able to enter the Street Name")
 	public void user_able_to_enter_the_street_name() {
@@ -86,7 +86,7 @@ public class Business_creation {
 	public void user_able_to_enter_the_state() {
 		WebElement state = driver.findElement(By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[2]/form[2]/div[1]/div[1]/div[2]/div[2]/div[2]/input[1]"));
 		state.sendKeys("Tamilnadu");
-		
+
 	}
 	@When("User able to enter the country")
 	public void user_able_to_enter_the_country() {
@@ -102,7 +102,7 @@ public class Business_creation {
 	public void user_able_to_enter_the_phone_number() {
 		WebElement phoneNumber = driver.findElement(By.xpath("//input[@name='phone_tel']"));
 		phoneNumber.sendKeys("6379732890");
-		
+
 	}
 	@When("user able to enter the Whatsapp No")
 	public void user_able_to_enter_the_whatsapp_no() {
@@ -114,22 +114,22 @@ public class Business_creation {
 		WebElement previous1 = driver.findElement(By.xpath("//button[@id='previous1']"));
 		previous1.click();
 		Thread.sleep(3000);
-		
+
 		WebElement businessButton = driver.findElement(By.xpath("(//button[@type='submit'])[1]"));
 		businessButton.sendKeys(Keys.ENTER);
-		
+
 		Thread.sleep(3000);
-		
+
 		WebElement next1 = driver.findElement(By.xpath("(//button[@type='submit'])[2]"));
 		next1.click();
-		
+
 	}
 	//3.Add Business Description
 	@When("User able to fill the Business Page Description")
 	public void user_able_to_fill_the_business_page_description() {
 		WebElement description = driver.findElement(By.xpath(" //textarea[@name='description']"));
 		description.sendKeys("Provide an overview of the business.This description provides extensive details outlining the business");
-		
+
 	}
 	@When("User able to enter the Email Id")
 	public void user_able_to_enter_the_email_id() {
@@ -141,7 +141,7 @@ public class Business_creation {
 	public void user_able_to_enter_the_existing_website() {
 		WebElement existingWebsite = driver.findElement(By.xpath("(//input[@type='text'])[10]"));
 		existingWebsite.sendKeys("https://www.tagexpo.in/d-reg-exhibitor");
-		
+
 	}
 	@Then("user able click the next button")
 	public void user_able_click_the_next_button() throws InterruptedException {
@@ -153,29 +153,29 @@ public class Business_creation {
 		Thread.sleep(3000);
 		WebElement next3 = driver.findElement(By.xpath("(//button[@type='submit'])[3]"));
 		next3.click();
-		
+
 	}
 	//4.Add Photos for your business
 	@When("User able to upload the Logo Image")
 	public void user_able_to_upload_the_logo_image() {
-		
+
 	}
 	@When("User able to upload the Header Image")
 	public void user_able_to_upload_the_header_image() {
-		
+
 	}
 	@Then("user able to click Next Button")
 	public void user_able_to_click_next_button() {
-		
+
 	}
 	//5.Easily In Minutes
 	@When("User able to enter the Publish button")
 	public void user_able_to_enter_the_publish_button() {
-		
+
 	}
 	@Then("user able to click the DashBoard button")
 	public void user_able_to_click_the_dash_board_button() {
-		
+
 	}
 
 }
